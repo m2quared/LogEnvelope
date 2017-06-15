@@ -6,7 +6,6 @@ use Illuminate\Database\Migrations\Migration;
 
 class CreateExceptionsTable extends Migration
 {
-
     /**
      * Created by package 'LogEnvelope'
      * Run the migrations.
@@ -24,14 +23,10 @@ class CreateExceptionsTable extends Migration
             $table->string('line');
             $table->string('file');
             $table->string('class');
-            $table->text('storage');
-            $table->text('exegutor');
-            $table->text('file_lines');
 
             $table->timestamps();
         });
     }
-    
     /**
      * Reverse the migrations.
      */
@@ -39,5 +34,4 @@ class CreateExceptionsTable extends Migration
     {
         Schema::drop('exceptions');
     }
-    
 }
