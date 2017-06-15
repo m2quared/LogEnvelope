@@ -1,5 +1,5 @@
 {
-    "name": "yaro/log-envelope",
+    "name": "m2quared/log-envelope",
     "description": "Laravel 5 email on error",
     "keywords": ["laravel", "log", "error", "mail on error"],
     "require": {
